@@ -23,7 +23,7 @@ import demo.sample.util.PathSettings;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages={"me.imploy.*"})
+@ComponentScan(basePackages={"demo.sample.*"})
 public class ApplicationStarter  extends SpringBootServletInitializer {
 
 		@Autowired
